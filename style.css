@@ -1,0 +1,70 @@
+* {
+    color: white;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    position:absolute;
+    top: 100px;
+    background-color: black;
+    min-height: 100vh;
+    height: 100vh;
+    width: 100vh;
+    margin-left: 20vh;
+    margin-right: 50vh;
+
+}
+
+
+.year-month {
+    position: relative;
+    font-size: 20px;
+    margin-left: 50px;
+      
+}
+
+.nav {
+    
+    position: relative;
+    margin-left: auto;
+    width: 20vh;
+}
+
+.nav-btn {
+    
+    color: white;
+    font-size: 16px;
+    line-height: 34px;
+    background-color: transparent;
+    
+}
+
+
+
+.days {
+    display: flex;
+    margin: 25px 0 10px;
+}
+
+.day {
+    width: calc(100%/7);
+    text-align: center;
+    color: gray;
+}
+
+.dates {
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+    border-top: 1px solid ;
+    border-right: 1px solid;
+}
+
+.date {
+    width: calc(100%/7);
+    padding: 10px;
+    text-align: right;
+    border-bottom : 1px solid;
+    border-left: 1px solid;
+}
